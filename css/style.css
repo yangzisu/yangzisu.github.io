@@ -340,12 +340,10 @@ input[type="search"]::-webkit-search-decoration {
 }
 body >header {
   width: 100%;
-  height: 10em;
-  line-height: 10em;
   -webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
   -moz-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
   box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
-  background: #363636;
+  background: color-blue-theme;
   color: #fff;
 }
 body >header >div {
@@ -438,7 +436,8 @@ body >header a {
   position: absolute;
   width: 2em;
   right: 0em;
-  top: 0.5em;
+  top: 1em;
+  padding: 0.5em;
   font-size: 20px;
 }
 @media only screen and (min-width: 1024px) {
@@ -459,7 +458,7 @@ header nav {
   float: left;
   width: 100%;
   font-size: 117.5%;
-  line-height: 300%;
+  padding-top: 0.5em;
   max-height: 0.01em;
   -webkit-transition: max-height 1s ease-out;
   -moz-transition: max-height 1s ease-out;
@@ -474,7 +473,7 @@ header nav {
   header nav {
     float: right;
     width: auto;
-    margin-top: 0em;
+    margin-top: 1em;
     max-height: none;
   }
 }
@@ -494,7 +493,7 @@ header nav ul li a {
 }
 @media only screen and (min-width: 1024px) {
   header nav ul li a {
-    padding: 0 1em;
+    padding: 0.2em 1.5em;
   }
 }
 header nav ul li a:hover {
