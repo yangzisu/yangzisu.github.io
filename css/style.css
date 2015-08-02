@@ -343,7 +343,7 @@ body >header {
   -webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
   -moz-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
   box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
-  background: #badeee;
+  background: #2ca6cb;
   color: #fff;
   padding: 1em 0 0.8em;
 }
@@ -459,7 +459,6 @@ header nav {
   float: left;
   width: 100%;
   font-size: 117.5%;
-  padding-top: 0.5em;
   max-height: 0.01em;
   -webkit-transition: max-height 1s ease-out;
   -moz-transition: max-height 1s ease-out;
@@ -498,7 +497,7 @@ header nav ul li a {
   }
 }
 header nav ul li a:hover {
-  color: #ba1c2c;
+  color: #c94b00;
 }
 .shownav {
   max-height: 40em;
@@ -621,7 +620,7 @@ header nav ul li a:hover {
   transition: all 0.45s;
 }
 #main section.post a:hover h1 {
-  color: #da4453;
+  color: #f60;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -664,7 +663,7 @@ header nav ul li a:hover {
 }
 #page-nav a:hover {
   background: #ccc;
-  color: #da4453;
+  color: #f60;
 }
 #page-nav .prev {
   float: left;
@@ -673,7 +672,7 @@ header nav ul li a:hover {
   transition: all 0.5s;
 }
 #page-nav .prev:hover {
-  border-left: 0.5em solid #da4453;
+  border-left: 0.5em solid #f60;
 }
 #page-nav .next {
   float: right;
@@ -682,7 +681,7 @@ header nav ul li a:hover {
   transition: all 0.5s;
 }
 #page-nav .next:hover {
-  border-right: 0.5em solid #da4453;
+  border-right: 0.5em solid #f60;
 }
 #page-nav .page-number {
   display: none;
@@ -765,13 +764,13 @@ header nav ul li a:hover {
   transition: color 0.5s;
 }
 .archive-title a:hover {
-  color: #da4453;
+  color: #f60;
   -webkit-transition: color 0.5s;
   -moz-transition: color 0.5s;
   transition: color 0.5s;
 }
 .current {
-  color: #da4453 !important;
+  color: #f60 !important;
 }
 @media only screen and (min-width: 768px) {
   .archive-part {
@@ -810,7 +809,7 @@ header nav ul li a:hover {
 }
 .post a:hover,
 .page a:hover {
-  color: #da4453;
+  color: #f60;
 }
 @media only screen and (min-width: 768px) {
   article header.article-info {
@@ -825,7 +824,7 @@ article header.article-info >h1 {
   word-break: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  border-left: 5px solid #da4453;
+  border-left: 5px solid #f60;
 }
 @media only screen and (min-width: 1024px) {
   article header.article-info >h1 {
@@ -943,7 +942,7 @@ article .article-content abbr {
   border-bottom: 1px dotted;
 }
 article .article-content blockquote {
-  border-left: 0.2em solid #da4453;
+  border-left: 0.2em solid #f60;
   margin: 0.65em 0 0.65em 4%;
   padding-left: 1%;
   line-height: 1.5;
@@ -990,7 +989,7 @@ article .article-content strong code,
 article .article-content em code {
   font-family: Monaco, Menlo, Consolas, Courier New, monospace;
   background: #eee;
-  color: #d52c3d;
+  color: #e65c00;
   border: 1px solid #d6d6d6;
   padding: 0 5px;
   margin: 0 2px;
@@ -1461,13 +1460,13 @@ section.comment {
   transition: color 1s ease-out;
 }
 #toc.toc-aside a:hover {
-  color: #da4453;
+  color: #f60;
   -webkit-transition: color 0.3s ease-out;
   -moz-transition: color 0.3s ease-out;
   transition: color 0.3s ease-out;
 }
 .active {
-  color: #da4453 !important;
+  color: #f60 !important;
 }
 .toc-link {
   color: #2ca6cb;
@@ -1502,7 +1501,7 @@ section.comment {
   padding: 0 0 0.3125em 0;
 }
 .asidetitle margin 0 0 0.4em 0:hover {
-  color: #da4453;
+  color: #f60;
   -webkit-transition: color 0.5s;
   -moz-transition: color 0.5s;
   transition: color 0.5s;
@@ -1529,7 +1528,7 @@ section.comment {
   margin: 0.5em;
 }
 .categorieslist li a:hover {
-  color: #da4453;
+  color: #f60;
 }
 .tagslist {
   margin: 1em 0 0;
@@ -1560,10 +1559,10 @@ section.comment {
   padding: 0 0.1125em;
 }
 .tagslist ul li a:hover {
-  color: #da4453;
+  color: #f60;
 }
 .rsspart {
-  background: #da4453;
+  background: #f60;
   width: 100%;
 }
 @media only screen and (min-width: 768px) {
@@ -1587,7 +1586,7 @@ section.comment {
   text-align: center;
 }
 .rsspart a:hover {
-  color: #da4453;
+  color: #f60;
   background: #fafafa;
 }
 .rsspart a::before {
@@ -1619,7 +1618,7 @@ section.comment {
   padding: 0.5em;
 }
 .archiveslist li a:hover {
-  color: #da4453;
+  color: #f60;
   -webkit-transition: color 0.25s;
   -moz-transition: color 0.25s;
   transition: color 0.25s;
@@ -1665,7 +1664,7 @@ section.comment {
   float: left;
 }
 .tagcloudlist .tagcloudlist a:hover {
-  color: #da4453;
+  color: #f60;
   -webkit-transition: color 0.25s;
   -moz-transition: color 0.25s;
   transition: color 0.25s;
@@ -1697,7 +1696,7 @@ section.comment {
   padding: 0 3%;
 }
 .linkslist ul a:hover {
-  color: #da4453;
+  color: #f60;
   -webkit-transition: color 0.25s;
   -moz-transition: color 0.25s;
   transition: color 0.25s;
@@ -1944,7 +1943,7 @@ footer {
   color: #2ca6cb !important;
 }
 .ds-highlight:hover {
-  color: #da4453 !important;
+  color: #f60 !important;
 }
 .ds-avatar {
   background: #fafafa !important;
