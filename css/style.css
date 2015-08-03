@@ -988,9 +988,9 @@ article .article-content p code,
 article .article-content strong code,
 article .article-content em code {
   font-family: Monaco, Menlo, Consolas, Courier New, monospace;
-  background: #000;
+  background: #ccc;
   color: #e65c00;
-  border: 1px solid #000;
+  border: 1px solid #b8b8b8;
   padding: 0 5px;
   margin: 0 2px;
   font-size: 90%;
@@ -1051,14 +1051,16 @@ article .article-content table {
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
+  background: #ccc;
+  border: 1px solid #dbdbdb;
 }
 article .article-content table th {
   font-weight: bold;
-  border-bottom: 3px solid #dbdbdb;
+  border: 3px solid #dbdbdb;
   padding-bottom: 0.5em;
 }
 article .article-content table td {
-  border-bottom: 1px solid #dbdbdb;
+  border: 1px solid #dbdbdb;
   padding: 10px 0;
 }
 article .article-content .pullquote {
@@ -1070,6 +1072,8 @@ article .article-content .pullquote {
 article .article-content .left {
   margin-left: 0.5em;
   margin-right: 1em;
+  padding-left: 0.5em;
+  width: 1em;
   float: left;
 }
 article .article-content .right {
@@ -1405,7 +1409,7 @@ section.comment {
 }
 .toc-article {
   display: block !important;
-  background: #000;
+  background: #ccc;
 }
 .toc-article strong {
   padding: 0.3em 0;
