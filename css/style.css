@@ -1052,28 +1052,33 @@ article .article-content table {
   border-collapse: collapse;
   border-spacing: 0;
   background: #ccc;
-  border: 1px solid #dbdbdb;
 }
 article .article-content table th {
   font-weight: bold;
   border: 3px solid #dbdbdb;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   padding-bottom: 0.5em;
 }
 article .article-content table td {
   border: 1px solid #dbdbdb;
-  padding: 10px 0;
+  margin-left: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+article .article-content table td>pre>span {
+  padding-left: 0.8em;
 }
 article .article-content .pullquote {
   text-align: left;
-  width: 45%;
-  margin: 0;
+  width: 10%;
   border: none;
 }
 article .article-content .left {
   margin-left: 0.5em;
   margin-right: 1em;
-  padding-left: 0.5em;
-  width: 1em;
   float: left;
 }
 article .article-content .right {
